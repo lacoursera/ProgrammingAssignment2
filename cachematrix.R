@@ -1,6 +1,14 @@
-## makeCacheMatrix creates a "matrix" object that can cache its inverse.
+## File: cachematrix.R
+## Modified by: lacoursera (Lara)
+## Date: 7/26/2015
+
+## Description: makeCacheMatrix creates a "matrix" object that can cache its inverse.
 ## cacheSolve retrieves the cached inverse matrix if it has already been computed.
 ## If the inverse matrix has not already been computed, cacheSolve will compute and cache it.
+
+## Credit: this code is adapted from the makeVector and cachemean functions in the
+## Programming Assignment 2 description at https://github.com/rdpeng/ProgrammingAssignment2
+
 
 ## makeCacheMatrix ###
 ## Given an input matrix x, creates a special "matrix" object that can cache its inverse.
